@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="border">#FFDDDDDD</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="maincolor">#fb7419</color>
+    <color name="black">#FF000000</color>
+    <color name="bluemasker">#FF0099CC</color>
+    <color name="android_transparent">#00000000</color>
+    <color name="hint">#dbdbdb</color>
+    <color name="line">#FFDDDDDD</color>
+    <color name="button">#22AC38</color>
+    <color name="code">#FF0099CC</color>
+    <color name="backgroundcolor">#FFEEEEEE</color>
+    <color name="chakangengd">#a5a5a5</color>
+    <color name="red">#FF0000</color>
+    <color name="zibeijing">#EDEDED</color>
+    <color name="zi">#858585</color>
+    <color name="zihui">#a5a5a5</color>
+    <color name="navpage">#FFE1E8EB</color>
+
+
+
+</resources>

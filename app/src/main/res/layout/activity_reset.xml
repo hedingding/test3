@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:windowSoftInputMode="stateVisible|adjustResize" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/maincolor">
+
+        <RelativeLayout
+            android:id="@+id/rl_back"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/icon_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@mipmap/fanhui"
+                android:gravity="center"
+                android:textSize="17dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="73dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="忘记密码"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="4dp"
+                android:background="@drawable/search_white5"
+                android:gravity="center_vertical"
+                android:digits="1234567890."
+                android:hint="请输入手机号码"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:text=""
+                android:textColorHint="@color/hint"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_code"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="4dp"
+                android:digits="1234567890."
+                android:background="@drawable/search_white5"
+                android:gravity="center_vertical"
+                android:hint="输入验证码"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:text=""
+                android:textColorHint="@color/hint"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btn_code"
+                android:layout_width="92dp"
+                android:layout_height="33dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_code"
+                android:text="立即获取"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_mima1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/search_white5"
+                android:gravity="center_vertical"
+                android:hint="请设置新密码"
+                android:paddingLeft="4dp"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:text=""
+                android:textColorHint="@color/hint"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_mima2"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/search_white5"
+                android:gravity="center_vertical"
+                android:hint="请确认新密码"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:paddingLeft="4dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColorHint="@color/hint"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_zhuce"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_submit_juse8"
+        android:enabled="true"
+        android:focusable="true"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</LinearLayout>

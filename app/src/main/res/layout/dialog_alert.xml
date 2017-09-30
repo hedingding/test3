@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_zong_8"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/dialog_title"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/dialog_msg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/dialog_msg"
+        android:gravity="center_vertical|center_horizontal"
+        android:lineSpacingExtra="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialog_neg"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_zuo"
+            android:gravity="center"
+            android:textColor="@color/bluemasker"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/dialog_line"
+            android:layout_width="1px"
+            android:layout_height="55dp"
+            android:background="#FFC6C6C6" />
+
+        <Button
+            android:id="@+id/dialog_pos"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_button_you"
+            android:gravity="center"
+            android:textColor="@color/bluemasker"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

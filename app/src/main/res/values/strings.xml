@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ZuiXinStudio</string>
+    <!--权限-->
+    <string name="message_post_succeed">获取权限成功</string>
+    <string name="message_post_failed">获取权限失败</string>
+    <string name="title_dialog">友情提示</string>
+    <string name="message_permission_failed">你拒绝了权限申请，请到设置里设置权限！</string>
+    <string name="btn_dialog_yes_permission">同意</string>
+    <string name="btn_dialog_no_permission">拒绝</string>
+    <string name="message_setting_back">用户从设置回来了</string>
+
+
+
+
+</resources>
