@@ -28,6 +28,8 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ///lalalal
+        ///lalalal
         mTabs = new Button[4];
         mTabs[0] = (Button) findViewById(R.id.btn_shouye);
         mTabs[1] = (Button) findViewById(R.id.btn_shangxiaoshangcheng);

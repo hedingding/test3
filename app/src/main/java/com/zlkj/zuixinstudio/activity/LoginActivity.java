@@ -67,6 +67,8 @@ public class LoginActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_login);
+		///lalalal'
+		///lalalal
 		BaseAppManager.getInstance().addActivity(this);
 		store = Store.init(this, "app", Context.MODE_APPEND);
 		et_password = (EditText) findViewById(R.id.et_password);
